@@ -183,7 +183,7 @@
 
         /* Services box with yellow background */
         .services-box {
-            background-color: #fffef5;
+            background-color: #E4F030;
             padding: 20px;
             border-radius: 8px;
             margin-top: 20px;
@@ -191,6 +191,20 @@
 
         .services-box p {
             margin-bottom: 8px;
+        }
+
+        .services-box h3 {
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+
+        .article-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 24px auto;
+            border-radius: 8px;
         }
 
         .module-image {
@@ -427,7 +441,8 @@
       "title": "Miltton's Comprehensive Support for Defence and Dual-Use Growth",
       "content": "Building on the insights and connections gained through Frontline Nexus and our exclusive study visits, Miltton delivers a comprehensive suite of services to drive success in the evolving defence and dual-use sector. Our expertise covers strategy, stakeholder engagement, technology adoption, and international market access.",
       "style": "default",
-      "services": "<h2>Key Miltton Services:</h2>\n• Strategic advisory for market entry, growth, and business model development\n• Stakeholder mapping and engagement across international defence ecosystems\n• Regulatory, market dynamics, and geopolitical analysis for defence and dual-use sectors\n• AI-driven strategy design and technology adoption support\n• Hands-on execution of concrete market-entry and expansion plans\n• Access to a specialist network spanning the Nordics, Baltics, U.S., Ukraine, and Brussels"
+      "image": "miltton.png",
+      "services": "<h3>Key Miltton Services:</h3>\n• Strategic advisory for market entry, growth, and business model development\n• Stakeholder mapping and engagement across international defence ecosystems\n• Regulatory, market dynamics, and geopolitical analysis for defence and dual-use sectors\n• AI-driven strategy design and technology adoption support\n• Hands-on execution of concrete market-entry and expansion plans\n• Access to a specialist network spanning the Nordics, Baltics, U.S., Ukraine, and Brussels"
     },
     {
       "id": "contact",
@@ -503,6 +518,11 @@
                     const className = (article.id === 'hero' && index === 0) ? 'lead' : '';
                     html += `<p class="${className}">${para.replace(/\n/g, '<br>')}</p>`;
                 });
+
+                // Add image if exists (before services box)
+                if (article.image) {
+                    html += `<img src="${article.image}" alt="${article.title}" class="article-image">`;
+                }
 
                 // Add services box if exists (for comprehensive-support)
                 if (article.services) {
