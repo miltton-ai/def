@@ -142,21 +142,19 @@
 
         .programme-card h3 {
             margin-top: 0;
-            display: flex;
-            align-items: center;
-            gap: 8px;
+            margin-bottom: 8px;
         }
 
         .programme-card .expand-icon {
-            margin-left: auto;
             font-size: 12px;
             transition: all 0.2s ease;
             display: flex;
             align-items: center;
+            justify-content: flex-end;
             gap: 4px;
             color: #999;
             font-weight: normal;
-            white-space: nowrap;
+            margin-top: 8px;
         }
 
         .programme-card .expand-icon .arrow {
@@ -502,16 +500,14 @@
                         <div class="programme-card" onclick="toggleProgramme(${index})">
                             <img src="${prog.image}" alt="${prog.title}" class="programme-image">
                             <div class="programme-content">
-                                <h3>
-                                    ${prog.title}
-                                    <span class="expand-icon">
-                                        <span class="read-more-text">Lue lisää</span>
-                                        <span class="arrow">▼</span>
-                                    </span>
-                                </h3>
+                                <h3>${prog.title}</h3>
                                 <div class="programme-meta">
                                     <strong>Destination:</strong> ${prog.destination}<br>
                                     <strong>Date:</strong> ${prog.date}
+                                </div>
+                                <div class="expand-icon">
+                                    <span class="read-more-text">Lue lisää</span>
+                                    <span class="arrow">▼</span>
                                 </div>
                                 <div class="programme-description" id="prog-desc-${index}">
                                     <p>${prog.description}</p>
