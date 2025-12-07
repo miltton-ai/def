@@ -149,11 +149,21 @@
 
         .programme-card .expand-icon {
             margin-left: auto;
-            font-size: 20px;
-            transition: transform 0.2s ease;
+            font-size: 14px;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            color: #666;
+            font-weight: normal;
         }
 
-        .programme-card.expanded .expand-icon {
+        .programme-card .expand-icon .arrow {
+            font-size: 20px;
+            color: #000;
+        }
+
+        .programme-card.expanded .expand-icon .arrow {
             transform: rotate(180deg);
         }
 
@@ -493,7 +503,10 @@
                             <div class="programme-content">
                                 <h3>
                                     ${prog.title}
-                                    <span class="expand-icon">▼</span>
+                                    <span class="expand-icon">
+                                        <span class="read-more-text">Lue lisää</span>
+                                        <span class="arrow">▼</span>
+                                    </span>
                                 </h3>
                                 <div class="programme-meta">
                                     <strong>Destination:</strong> ${prog.destination}<br>
