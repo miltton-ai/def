@@ -1,0 +1,82 @@
+{
+  "modules": [
+    {
+      "id": "hero",
+      "type": "article",
+      "title": "Oppeja puolustusteollisuudesta ja innovoinnista Ukrainassa",
+      "tag": "216. ja 249. maanpuolustuskurssien yhteistapaaminen",
+      "content": "<b>Case: Brave1.</b> Miten digitaaliset prosessit, nopea kokeilukulttuuri ja markkinamalli vauhdittavat puolustusinnovaatioiden matkaa ideasta rintamalle.",
+      "style": "neon"
+    },
+    {
+      "id": "state-in-smartphone",
+      "type": "article",
+      "title": "Держава у смартфоні – State in a Smartphone",
+      "content": "Presidentti Volodymyr Zelenskyi ja nykyinen varapääministeri Myhailo Fedorov tekivät teknologiasta ja digihallinnosta kansallisen prioriteetin hallituksen aloittaessa vuonna 2019. Fedorovin lanseeraama ohjelma <b>\"State in a Smartphone\"</b> tähtäsi täysin digitaaliseen julkiseen hallintoon ja teknologiateollisuuden vahvistamiseen.\n\nSamana vuonna perustettu digitaalisen transformaation ministeriö sai laajat valtuudet koordinoida digitalisaatiota, kyberturvallisuutta ja innovaatioita. Strateginen tavoite kirjattiin hallitusohjelmaan vuonna 2021: \"make Ukraine a top digital nation by 2030\".",
+      "style": "default"
+    },
+    {
+      "id": "ecosystem",
+      "type": "article",
+      "title": "Ukrainan teknologiaekosysteemi kehittyy",
+      "content": "Ukraina on sodan aikana noussut digitaalisen puolustusteknologian laboratorioksi. Innovaatioita syntyy nopeasti erityisesti drooni-, tekoäly- ja elektronisen sodankäynnin aloilla.\n\nValtiollinen digitaalisen transformaation ministeriö toimii moottorina, joka yhdistää siviili- ja puolustusteknologian kehityksen. Tässä kontekstissa synnytetty Brave1-ohjelma organisoi ja nopeuttaa innovaation kulun ideasta rintamalle.",
+      "style": "default"
+    },
+    {
+      "id": "unit-city",
+      "type": "article",
+      "title": "Unit.City – Kyivssä sijaitseva teknologiakampus",
+      "content": "Unit.City toimii startup-keskittymänä ja teknologiakampuksena, josta on muodostunut symboli Ukrainan teknologiselle eetokselle. Rakentaminen alkoi jo vuonna 2017.",
+      "style": "default"
+    },
+    {
+      "id": "brave1-background",
+      "type": "article",
+      "title": "Brave1-ohjelman tausta ja periaate",
+      "content": "Brave1 perustettiin huhtikuussa 2023 kuuden valtiollisen toimijan yhteistyönä (puolustus-, talous- ja digiministeriöt, asevoimat, kansallinen puolustusneuvosto). Tarkoitus on tarjota yksi valtiollinen ikkuna puolustusteknologiainnovaatioiden kehittämiselle, rahoitukselle ja testaukselle.\n\nBrave1 tukee kehittäjiä rahoituksella, testaustiloilla ja kenttäpiloteilla (\"Test in Ukraine\"). Alusta yhdistää valtion, kehittäjät, sijoittajat ja taisteluyksikön yhdeksi ketjuksi. Vuonna 2025 Brave1 siirtyi markkinamalliin, jossa yksiköt voivat tilata ja hankkia varusteita suoraan.",
+      "style": "default"
+    },
+    {
+      "id": "demo-clip",
+      "type": "article",
+      "title": "Innovaatiot syntyvät etulinjatestauksessa",
+      "content": "France24-uutiskanavan reportaasi Brave1-ohjelmasta syyskuulta 2025:",
+      "style": "default"
+    },
+    {
+      "id": "market",
+      "type": "article",
+      "title": "Kevät 2025 – Brave1 Market",
+      "content": "Brave1 Market avattiin huhtikuussa 2025 digitaalisesti hallinnoituna markkinapaikkana puolustusinnovaatioille. Yksiköt (esim. pataljoonat ja prikaatit) voivat tilata drooneja, elektronisen sodankäynnin järjestelmiä, komponentteja ja ohjelmistoja suoraan hyväksytyiltä valmistajilta.\n\nMarkkinapaikalla käytettävät e-pisteet (єБали) toimivat sisäisenä kannustimena: yksiköt ansaitsevat pisteitä vahvistetuista vihollisen kalustotuhoista ja vaihtavat pisteitä laitteisiin. Avoimessa kauppapaikassa kalusto ja tarvikkeet ovat esillä ilman tarkkoja yksityiskohtia:",
+      "style": "default"
+    },
+    {
+      "id": "model",
+      "type": "article",
+      "title": "Toimintamalli: julkinen ja suljettu järjestelmä",
+      "content": "DELTA toimii Ukrainan taistelunjohtamis- ja tilannekuvajärjestelmänä sekä Brave1 Marketin kirjautumis- ja valtuutusalustana. Julkinen puoli esittelee hyväksyttyjä innovaatioita ilman arkaluontoisia tietoja, kun taas ei-julkinen puoli sisältää e-pisteet, tekniset tiedot ja sopimustoiminnot kirjautuneille yksiköille.\n\nValmistajat käyvät viranomais-auditoinnin ennen tuotteiden listaamista markkinapaikalle. Toimitukset hoitaa Defence Procurement Agency DOT-Chain-järjestelmän kautta. Se huolehtii toimitusketjusta ja lyhentää hankintasykliä viikoista päiviin.",
+      "style": "default"
+    },
+    {
+      "id": "significance",
+      "type": "article",
+      "title": "Brave1:n merkitys ja vaikutukset",
+      "content": "<b>Nopeus:</b> Digitalisoidut prosessit lyhentävät hankintasykliä merkittävästi. \n<b>Kannustemalli:</b> e-pistejärjestelmä palkitsee tehokkaat yksiköt ja luo markkinasignaaleja toimiville innovaatioille. \n<b>Integraatio:</b> Brave1 yhdistää kehittäjät, testauksen, rahoituksen ja kenttäkäytön samaan järjestelmään. \n<b>Hallittu avoimuus:</b> Julkinen osa kannustaa innovaatioita ja sijoittajia, ei-julkinen suojaa operatiivista tietoa.\n<b> Pitemmällä aikavälillä Brave1 tukee Ukrainan tavoitetta olla yksi merkittävimmistä eurooppalaisista puolustusalan toimijoista myös sodan jälkeen.</b> \n\n<b>Eettiset kysymykset:</b> Tappamisen pelillistäminen on herättänyt arvostelua. Presidentti Zelenskyi reagoi tähän ja ilmoitti, että 1.12.2025 alkaen pisteitä jaetaan myös muun muassa evakuoinneista. Ukrainalaisen pelastaminen on painoarvoltaan suurempi teko kuin vihollissotilaan surmaaminen.",
+      "style": "neon"
+    },
+    {
+      "id": "contact",
+      "type": "article",
+      "title": "Yhteystiedot",
+      "content": "Kaius Niemi, Miltton Group\nkaius.niemi@miltton.com · +358 44 765 5706",
+      "style": "neon"
+    },
+    {
+      "id": "forms",
+      "type": "article",
+      "title": "Palaute",
+      "content": "Kiitos esityksestä! Voit antaa palautetta ja ideoita alla olevalla lomakkeella.",
+      "style": "default"
+    }
+  ]
+}
