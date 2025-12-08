@@ -113,14 +113,14 @@
         .programme-card {
             border: 2px solid #E4F030;
             border-radius: 8px;
-            padding: 20px;
+            padding: 16px;
             margin-bottom: 16px;
             cursor: pointer;
             transition: all 0.2s ease;
             background-color: #fffef5;
             display: flex;
             flex-wrap: wrap;
-            gap: 20px;
+            gap: 12px;
             align-items: flex-start;
         }
 
@@ -144,7 +144,7 @@
 
         .programme-card h3 {
             margin-top: 0;
-            margin-bottom: 8px;
+            margin-bottom: 4px;
         }
 
         .programme-card .expand-icon {
@@ -156,7 +156,8 @@
             gap: 4px;
             color: #999;
             font-weight: normal;
-            margin-top: 8px;
+            margin-top: 4px;
+            margin-bottom: 0;
         }
 
         .programme-card .expand-icon .arrow {
@@ -171,27 +172,30 @@
         .programme-meta {
             font-size: 14px;
             color: #666;
-            margin-bottom: 8px;
+            margin-bottom: 4px;
         }
 
         .programme-description {
             max-height: 0;
             overflow: hidden;
             transition: max-height 0.3s ease;
-            margin-top: 12px;
+            margin-top: 0;
             padding-top: 0;
             width: 100%;
             flex-basis: 100%;
+            margin-bottom: 0;
         }
 
         .programme-card.expanded .programme-description {
             max-height: 500px;
             padding-top: 12px;
+            margin-top: 12px;
             border-top: 1px solid #e0e0e0;
         }
 
         .programme-description p {
             color: #333;
+            margin-bottom: 0;
         }
 
         /* Services box with yellow background */
