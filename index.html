@@ -119,6 +119,7 @@
             transition: all 0.2s ease;
             background-color: #fffef5;
             display: flex;
+            flex-wrap: wrap;
             gap: 20px;
             align-items: flex-start;
         }
@@ -138,6 +139,7 @@
 
         .programme-content {
             flex: 1;
+            min-width: 0;
         }
 
         .programme-card h3 {
@@ -178,6 +180,8 @@
             transition: max-height 0.3s ease;
             margin-top: 12px;
             padding-top: 0;
+            width: 100%;
+            flex-basis: 100%;
         }
 
         .programme-card.expanded .programme-description {
@@ -399,7 +403,7 @@
       "type": "article",
       "title": "Unlock International Defence and Dual-Use Potential",
       "tag": "New Defence — December 9th 2025 at Miltton House",
-      "content": "Miltton connects organisations to global defence and dual-use opportunities, leveraging deep international networks and advanced technology expertise. Our hands-on approach helps clients succeed in rapidly evolving markets where civilian and military innovation intersect. Here are our three main services:",
+      "content": "Miltton and Nordic West Office connect organisations to global defence and dual-use opportunities, leveraging deep international networks and advanced technology expertise. Our hands-on approach helps clients succeed in rapidly evolving markets where civilian and military innovation intersect. Here are our three main services:",
       "style": "neon"
     },
     {
@@ -443,10 +447,10 @@
       "id": "comprehensive-support",
       "type": "article",
       "title": "2. Miltton's Comprehensive Support for Defence and Dual-Use Growth",
-      "content": "Building on the insights and connections gained through Frontline Nexus and our exclusive study visits, Miltton delivers a comprehensive suite of services to drive success in the evolving defence and dual-use sector. Our expertise covers strategy, stakeholder engagement, technology adoption, and international market access.",
+      "content": "Building on the insights and connections gained through Frontline Nexus and our exclusive study visits, Miltton and Nordic West Office deliver a comprehensive suite of services to drive success in the evolving defence and dual-use sector. Our expertise covers strategy, stakeholder engagement, technology adoption, and international market access.",
       "style": "default",
       "image": "miltton.png",
-      "services": "<h3>Key Miltton Services in the Def Tech Domain:</h3>\n• Strategic advisory for market entry, growth, and business model development\n• Support for doing business with NATO and its member states. <b>Read <a href='miltton_nato_guide.pdf' target='_blank' style='color: #000; text-decoration: underline;'>more</a></b>.\n• Stakeholder mapping and engagement across international defence ecosystems\n• Regulatory, market dynamics, and geopolitical analysis for defence and dual-use sectors\n• AI-driven strategy design and technology adoption support\n• Hands-on execution of concrete market-entry and expansion plans\n• Access to a specialist network spanning the Nordics, Baltics, U.S., Ukraine, and Brussels"
+      "services": "<h3>Key Miltton Services in the Def Tech Domain:</h3>\n• Strategic advisory for market entry, growth, and business model development\n• Stakeholder mapping and engagement across international defence ecosystems\n• Regulatory, market dynamics, and geopolitical analysis for defence and dual-use sectors\n• AI-driven strategy design and technology adoption support\n• Hands-on execution of concrete market-entry and expansion plans\n• Access to a specialist network spanning the Nordics, Baltics, U.S., Ukraine, and Brussels"
     },
     {
       "id": "contact",
@@ -506,12 +510,12 @@
                                     <strong>Date:</strong> ${prog.date}
                                 </div>
                                 <div class="expand-icon">
-                                    <span class="read-more-text">Read more</span>
+                                    <span class="read-more-text">Lue lisää</span>
                                     <span class="arrow">▼</span>
                                 </div>
-                                <div class="programme-description" id="prog-desc-${index}">
-                                    <p>${prog.description}</p>
-                                </div>
+                            </div>
+                            <div class="programme-description" id="prog-desc-${index}">
+                                <p>${prog.description}</p>
                             </div>
                         </div>
                     `;
