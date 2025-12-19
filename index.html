@@ -31,10 +31,19 @@
         }
 
         .logo {
-            color: #ffffff;
-            font-size: 24px;
-            font-weight: 700;
-            letter-spacing: -0.5px;
+            display: block;
+        }
+
+        .logo img {
+            height: 32px;
+            width: auto;
+            display: block;
+        }
+
+        @media (min-width: 768px) {
+            .logo img {
+                height: 40px;
+            }
         }
 
         /* Main content container */
@@ -212,120 +221,129 @@
 
         .services-box h3 {
             margin-top: 0;
-            margin-bottom: 16px;
+            margin-bottom: 12px;
         }
 
+        /* Article image */
         .article-image {
             width: 100%;
-            max-width: 600px;
             height: auto;
-            display: block;
-            margin: 24px auto;
             border-radius: 8px;
+            margin: 20px 0;
         }
 
-        .module-image {
+        /* Embed module */
+        .module-embed {
             padding: 0;
-            background-color: #000000;
-            min-height: 200px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .module-image img {
-            width: 100%;
-            height: auto;
-            display: block;
-            object-fit: contain;
-        }
-
-        .module-video {
-            padding: 0;
-            background-color: #000000;
-            min-height: 200px;
-        }
-
-        .video-wrapper {
-            position: relative;
-            padding-bottom: 56.25%; /* 16:9 aspect ratio */
-            height: 0;
-            overflow: hidden;
-        }
-
-        .video-wrapper iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: 0;
+            border: none;
         }
 
         .embed-wrapper {
-            position: relative;
             width: 100%;
-            height: 1350px;
-            overflow: hidden;
+            height: 600px;
+            position: relative;
         }
 
         .embed-wrapper iframe {
             width: 100%;
             height: 100%;
-            border: 0;
+            border: none;
         }
 
-        /* Mobile adjustment */
-        @media (max-width: 560px) {
-            .embed-wrapper {
-                height: 1220px;
-            }
-        }
-
-        /* Accent colors */
+        /* Accent styles for neon (yellow) background */
         .accent-neon {
             background-color: #E4F030;
-        }
-
-        .accent-orange {
-            background-color: #EB5D29;
-            color: #ffffff;
-        }
-
-        .accent-lilac {
-            background-color: #8383D2;
-            color: #ffffff;
-        }
-
-        .accent-green {
-            background-color: #2D9E00;
-            color: #ffffff;
         }
 
         /* Footer */
         footer {
             background-color: #000000;
             color: #ffffff;
-            padding: 30px 20px;
-            text-align: center;
+            padding: 20px;
+            text-align: left;
+        }
+
+        footer .logo {
+            margin-bottom: 10px;
+        }
+
+        footer .logo img {
+            height: 28px;
+        }
+
+        @media (min-width: 768px) {
+            footer .logo img {
+                height: 32px;
+            }
         }
 
         footer p {
             font-size: 14px;
-            opacity: 0.8;
+            color: #999999;
         }
 
         /* Loading state */
         .loading {
-            text-align: center;
-            padding: 20px;
-            color: #999999;
+            min-height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+        }
+
+        /* Desktop layout */
+        @media (min-width: 768px) {
+            header {
+                padding: 24px 40px;
+            }
+
+            .module {
+                padding: 40px;
+            }
+
+            .module-article h1 {
+                font-size: 48px;
+            }
+
+            .module-article h2 {
+                font-size: 36px;
+            }
+
+            .programme-image {
+                width: 180px;
+                height: 120px;
+            }
+
+            footer {
+                padding: 24px 40px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            main {
+                max-width: 900px;
+                margin: 0 auto;
+            }
+
+            .module {
+                padding: 50px 60px;
+            }
+
+            .module-article h1 {
+                font-size: 56px;
+            }
+
+            .module-article h2 {
+                font-size: 40px;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="logo">miltton</div>
+        <div class="logo">
+            <img src="mlogo.png" alt="Miltton">
+        </div>
     </header>
 
     <main>
@@ -336,36 +354,18 @@
                 Loading...
             </div>
 
-            <!-- Image: fn.png -->
-            <div class="module module-image">
-                <img src="fn.png" alt="Frontline Nexus">
+            <!-- Travel Programmes Article -->
+            <div id="article-travel-programmes" class="module module-article loading">
+                Loading...
             </div>
 
-            <!-- Frontline Nexus -->
+            <!-- Frontline Nexus Article -->
             <div id="article-frontline-nexus" class="module module-article loading">
                 Loading...
             </div>
 
-            <!-- Video Module -->
-            <div class="module module-video">
-                <div class="video-wrapper">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Xj-hAiOlpZo?si=xvXXb9pfTbsetNlg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>       
-                    </iframe>
-                </div>
-            </div>
-
-            <!-- Comprehensive Support -->
+            <!-- Comprehensive Support Article -->
             <div id="article-comprehensive-support" class="module module-article loading">
-                Loading...
-            </div>
-
-            <!-- Image: globe.png -->
-            <div class="module module-image">
-                <img src="globe.png" alt="Global defence and dual-use network">
-            </div>
-
-            <!-- Travel Programmes -->
-            <div id="article-travel-programmes" class="module module-article loading">
                 Loading...
             </div>
 
@@ -394,7 +394,9 @@
     </main>
 
     <footer>
-        <div class="logo" style="margin-bottom: 10px;">miltton</div>
+        <div class="logo">
+            <img src="mlogo.png" alt="Miltton">
+        </div>
         <p>&copy; 2025 Miltton and Nordic West Office</p>
     </footer>
 
